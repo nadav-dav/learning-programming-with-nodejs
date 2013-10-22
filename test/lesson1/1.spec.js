@@ -8,27 +8,27 @@ describe("Learning about types", function(){
     });
 
     learnAbout("Booleans", function(){
-        expect(true ).toBe(__);
-        expect(false ).toBe(__);
-        expect(true || true ).toBe(__);
-        expect(true || false ).toBe(__);
-        expect(false || true ).toBe(__);
-        expect(false || false ).toBe(__);
-        expect(true && true ).toBe(__);
-        expect(true && false ).toBe(__);
-        expect(false && true ).toBe(__);
-        expect(false && false ).toBe(__);
+        expect(true ).toEqual(__);
+        expect(false ).toEqual(__);
+        expect(true || true ).toEqual(__);
+        expect(true || false ).toEqual(__);
+        expect(false || true ).toEqual(__);
+        expect(false || false ).toEqual(__);
+        expect(true && true ).toEqual(__);
+        expect(true && false ).toEqual(__);
+        expect(false && true ).toEqual(__);
+        expect(false && false ).toEqual(__);
     });
 
     learnAbout("Comparisons", function(){
-        expect(1 == 1 ).toBe(__);
-        expect(1 == 2 ).toBe(__);
-        expect(1 != 1 ).toBe(__);
-        expect(1 != 2 ).toBe(__);
-        expect(1 > 2 ).toBe(__);
-        expect(1 < 2 ).toBe(__);
-        expect(1 >= 2 ).toBe(__);
-        expect(1 <= 2 ).toBe(__);
+        expect(1 == 1 ).toEqual(__);
+        expect(1 == 2 ).toEqual(__);
+        expect(1 != 1 ).toEqual(__);
+        expect(1 != 2 ).toEqual(__);
+        expect(1 > 2 ).toEqual(__);
+        expect(1 < 2 ).toEqual(__);
+        expect(1 >= 2 ).toEqual(__);
+        expect(1 <= 2 ).toEqual(__);
     });
 
     learnAbout("Strings", function(){

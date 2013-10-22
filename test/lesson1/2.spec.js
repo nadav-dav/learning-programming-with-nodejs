@@ -23,15 +23,15 @@ describe("Variables", function(){
     learnAbout("comparing variables", function(){
         var a = 10;
         var b = 10;
-        expect( a == b ).toBe (__);
-        expect( a != b ).toBe (__);
-        expect( a < b ).toBe (__);
-        expect( a >= b ).toBe (__);
-        expect( a <= b ).toBe (__);
+        expect( a == b ).toEqual (__);
+        expect( a != b ).toEqual (__);
+        expect( a < b ).toEqual (__);
+        expect( a >= b ).toEqual (__);
+        expect( a <= b ).toEqual (__);
 
         var c = 0;
-        expect( a == c ).toBe (__);
-        expect( a = c ).toBe (__);
+        expect( a == c ).toEqual (__);
+        expect( a = c ).toEqual (__);
     });
 
     learnAbout("type checks", function(){
