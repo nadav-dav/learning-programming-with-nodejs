@@ -1,0 +1,90 @@
+Lessons
+==========
+
+
+* how to install and run node js
+    * go to http://wwww.nodejs.net and install NodeJs
+    * what is node js
+
+lesson 1
+=========
+* output to the screen - learn about types
+    * Booleans
+    * Numbers
+    * Strings ( include line breaks )
+    * variables
+
+* comparison
+    * equals
+    * gt, lt, etc
+
+* advance data structures
+    * Arrays
+    * Objects
+
+* if statements
+    * if - else
+    * single lined if statements
+
+* loops
+    * while loop
+    * for loops
+
+* functions
+    * function with output
+    * functions with simple input
+    * functions with complex input (multiple types)
+    * throwing errors
+
+* timers and async flow
+    * timers and intervals
+    * callback pattern
+    * returning results anyncly
+    * returning errors anyncly
+
+* npm - how to install extra libraries
+
+* file system
+    * read file from file system
+    * write files from file system
+    * binary / text file
+    * Json & XML
+
+* network
+    * read file from network
+    * basic understanding if http protocol (ports / ip / structure)
+
+* creating a basic server
+    * listening to port
+    * replying to a request
+    * whats in the request?
+    * creating a basic html response
+
+* client side
+    * html, js and css
+    * create a basic html page
+    * design the page with css
+    * change the page layout with JS
+    * moving the code to be loaded as external files
+
+* third party libraries
+    * using JQuery to update the page we created
+    * installing font awesome and twitter bootstrap
+    * working with collections and lodash
+
+* message app
+    * learn about forms
+    * creating a simple app that will load messages from the server via ajax
+    * add new messages to the server
+    * saving messages to the file system and persist it
+
+* database
+    * a little bit about mongoDB
+    * setting up Mongoose and saving messages to mongoDB
+
+* improve message app
+    * add a users database
+    * setting up a simple authentication
+    * displaying login / signup form
+    * adding user field to message
+    * adding an gravatar to the user's messages
